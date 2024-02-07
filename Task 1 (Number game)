@@ -22,7 +22,7 @@ class ran {
       if (guess > answer){
           System.out.println("TOO HIGH  " );
           System.out.println("TRY AGAIN  " );}
-      else (guess < answer){
+      else if (guess < answer){
       System.out.println("TOO LOW " );
       System.out.println("TRY AGAIN  " );
       }
