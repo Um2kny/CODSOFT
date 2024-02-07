@@ -1,0 +1,43 @@
+import java.util.Scanner;
+class CAL {
+    public static void main(String[] args) {
+     System.out.println("_________GRADE CALCULATOR________");
+        System.out.println("ENTER YOUR MARKS OF ALL SIX SUBJECTS ");
+           System.out.println("OUT OF 100");
+      int S1,S2,S3,S4,S5,S6,TM,AP;
+      Scanner keyboard = new Scanner(System.in);
+      System.out.println("ENTER MARKS OF 1ST SUB : ");
+      S1 = keyboard.nextInt();
+      System.out.println("ENTER MARKS OF 2ST SUB : ");
+      S2 = keyboard.nextInt();
+      System.out.println("ENTER MARKS OF 3ST SUB : ");
+      S3 = keyboard.nextInt();
+      System.out.println("ENTER MARKS OF 4ST SUB : ");
+      S4 = keyboard.nextInt();
+      System.out.println("ENTER MARKS OF 5ST SUB : ");
+      S5 = keyboard.nextInt();
+      System.out.println("ENTER MARKS OF 6ST SUB : ");
+      S6 = keyboard.nextInt();
+      TM = S1 + S2 + S3 + S4 + S5 + S6;
+     System.out.println("------RESULT------");
+        System.out.println("====================");
+      System.out.println("TOTAL MARKS  :" +TM + " OUT OF 600");
+      AP = TM/6;
+     System.out.println("AVERAGE PERCENTAGE :" +AP+"%");
+     if (AP >= 90){
+     System.out.println("YOUR GRADE IS A+" );}
+     else if (AP >= 80){
+     System.out.println("YOUR GRADE IS A");}
+     else if (AP >= 70){
+     System.out.println("YOUR GRADE IS B+");}
+     else if (AP >= 60){
+     System.out.println("YOUR GRADE IS B");}
+     else if (AP >= 50){
+     System.out.println("YOUR GRADE IS C");}
+     else if (AP >= 40){
+     System.out.println("YOUR GRADE IS D");}
+     else {
+     System.out.println("YOUR GRADE IS F");}
+      System.out.println("====================");
+      }
+}
