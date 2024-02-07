@@ -13,21 +13,21 @@ class ran {
       Random rand = new Random();
       answer = rand.nextInt(MAX) + 1;
       int i = 0;
-      while (i >= 0){
+      guess = 0;
+      while (guess != answer){
           System.out.println("YOUR GUESS");
           i++;
       guess = keyboard.nextInt();
-      if (guess == answer){
-          System.out.println("CORRECT" );
-          break;      }
-      else if (guess > answer){
+     
+      if (guess > answer){
           System.out.println("TOO HIGH  " );
           System.out.println("TRY AGAIN  " );}
-      else if(guess < answer){
+      else (guess < answer){
       System.out.println("TOO LOW " );
       System.out.println("TRY AGAIN  " );
       }
       }
+      System.out.println("CORRECT" );
       System.out.println("NUMBERS OF TRIES TAKEN : " + i);
       System.out.println("======GAME OVER=======");
       }
