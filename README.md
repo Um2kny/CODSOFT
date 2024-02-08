@@ -2,3 +2,6 @@ this file consists of 3 tasks related to java programming for the codesoft onlin
 
 task 1
 number game
+
+task 2 
+grade calculator 
