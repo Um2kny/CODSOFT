@@ -27,7 +27,7 @@ class ran {
       System.out.println("TRY AGAIN  " );
       }
       }
-      System.out.println("CORRECT" );
+      System.out.println("CORRECT " );
       System.out.println("NUMBERS OF TRIES TAKEN : " + i);
       System.out.println("\n======GAME OVER=======");
       }
