@@ -9,7 +9,7 @@ class CAL {
           
       int TR,SUM,AP;
       SUM = 0;
-      
+      System.out.println("\nENTER MARKS OF EACH SUBJECT OUT OF 100:");
       int [] marks = new int[S];
       for (int i=0; i< S; i++ ){
           System.out.println("\nENTER SUBJECT NAME : ");
