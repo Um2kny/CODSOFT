@@ -6,7 +6,7 @@ class ran {
       System.out.println("\n*****INSTRUCTIONS*****" );
       System.out.println(" \nTry to guess the computer generated number between 1-100 " );
      System.out.println("\n-----START-----" );
-     System.out.println("\nNUMBER IS BETWEEN 1-100");
+     System.out.println("NUMBER IS BETWEEN 1-100");
       int answer, guess;
       final int MAX = 100;
       Scanner keyboard = new Scanner(System.in);
@@ -20,15 +20,15 @@ class ran {
       guess = keyboard.nextInt();
      
       if (guess > answer){
-          System.out.println("\nTOO HIGH  " );
-          System.out.println("\nTRY AGAIN  " );}
+          System.out.println("TOO HIGH  " );
+          System.out.println("TRY AGAIN  " );}
       else if (guess < answer){
-      System.out.println("\nTOO LOW " );
-      System.out.println("\nTRY AGAIN  " );
+      System.out.println("TOO LOW " );
+      System.out.println("TRY AGAIN  " );
       }
       }
-      System.out.println("\nCORRECT" );
-      System.out.println("\nNUMBERS OF TRIES TAKEN : " + i);
+      System.out.println("CORRECT" );
+      System.out.println("NUMBERS OF TRIES TAKEN : " + i);
       System.out.println("\n======GAME OVER=======");
       }
 }
