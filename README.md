@@ -5,3 +5,6 @@ number game
 
 task 2 
 grade calculator 
+
+task 3 
+ATM interface
